@@ -1,0 +1,88 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* White background for content */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #282928; /* Green color for the header */
+}
+
+.profile-section {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    background-color: #e8f5e9; /* Light green background for profile section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    flex: 0 0 200px; /* Fixed width for photo */
+    margin-right: 20px; /* Margin between photo and details */
+    text-align: center; /* Center align photo and name */
+    background-color: #4b4b4b; /* Light green background for photo section */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.profile-photo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Rounded corners for the photo */
+}
+
+.profile-photo h2 {
+    margin-top: 10px; /* Margin for name under the photo */
+    color: #536354; /* Dark green color for the name */
+}
+
+.profile-details {
+    flex: 1; /* Take remaining space */
+}
+
+.profile-details h2 {
+    margin-top: 0; /* Remove default margin */
+}
+
+.profile-table, .work-experience-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for table */
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflow for rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.profile-table th, .profile-table td, .work-experience-table th, .work-experience-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    background-color: #f1f8e9; /* Light green background for table cells */
+}
+
+.work-experience-table caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #2e7d32; /* Dark green color for caption */
+}
+
